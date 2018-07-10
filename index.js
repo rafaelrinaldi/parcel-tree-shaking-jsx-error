@@ -26,4 +26,4 @@ const App = () => (
   </Router>
 );
 
-render(<App />, document.querySelector("[data-app]"));C
+render(<App />, document.querySelector("[data-app]"));

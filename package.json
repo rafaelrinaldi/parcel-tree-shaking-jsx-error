@@ -1,7 +1,7 @@
 {
   "scripts": {
     "prebuild": "rm -rf build",
-    "build": "parcel build index.html -d build --no-cache --experimental-scope-hoisting",
+    "build": "parcel build index.html -d build --no-cache",
     "prestart": "npm run build",
     "start": "live-server build --no-browser"
   },
